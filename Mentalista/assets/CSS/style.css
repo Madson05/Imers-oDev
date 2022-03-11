@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: none;
+}
+
+body{
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90grad, black, rgb(110, 18, 18));
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.titulo{
+    margin: 25px;
+}
+
+#chute{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 25px
+}
+
+#botao{
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#botao:hover{
+    background-color: rgba(226, 219, 219, 0.877);
+    cursor: pointer;
+}
