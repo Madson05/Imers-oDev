@@ -1,0 +1,22 @@
+
+*{
+    text-align: center;
+}
+
+body{
+    background:  linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url("../imagens/telaDeFundo.jpg");
+    color: white;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+   
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
