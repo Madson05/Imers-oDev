@@ -30,7 +30,7 @@ let cartaJogador = "";
 let cartaMaquina = "";
 function sortearCartas(){
     let indiceMaquina = parseInt((Math.random() * 3));
-    let cartaMaquina = cartas[indiceMaquina];
+    cartaMaquina = cartas[indiceMaquina];
     let indiceJogador = parseInt((Math.random() * 3));
     while(indiceJogador === indiceMaquina){
         indiceJogador = parseInt((Math.random() * 3));
@@ -56,7 +56,7 @@ function obtemOpcaoSelecionada(){
     let opcoes = document.getElementsByName("atributo")
 
     for(let i = 0; i < opcoes.length; i++){
-        if(opcoes[i].checked == "true"){
+        if(opcoes[i].checked == true){
             return opcoes[i].value;
         }
     }
@@ -65,9 +65,7 @@ function obtemOpcaoSelecionada(){
 function jogar(){
     let resultado = document.getElementById("resultado");
     let elementoSelecionado = obtemOpcaoSelecionada();
-    console.log(elementoSelecionado)
     let valorSelecionadoJogador = cartaJogador.atributos[elementoSelecionado];
-    console.log(valorSelecionadoJogador)
     let valorSelecionadoMaquina = cartaMaquina.atributos[elementoSelecionado];
 
     if(valorSelecionadoMaquina < valorSelecionadoJogador){
@@ -78,6 +76,13 @@ function jogar(){
     }else{
         resultado.innerHTML = "Você empatou"
     }
+
+    resultado.innerHTML += `<br>
+    <h3>Sua carta era: ${cartaJogador.nome}<br>
+    O seu poder na opção escolhida foi: ${valorSelecionadoJogador}<br><br>
+    A carta da Maquina era: ${cartaMaquina.nome}<br>
+    E o valor da máquina na opção selecionada foi: ${valorSelecionadoMaquina}
+    </h3>`
 
 
 }
