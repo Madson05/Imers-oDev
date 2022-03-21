@@ -10,38 +10,38 @@ let projetos = [
     projeto1  = {
         nome: "Calculadora de Média",
         icone: "📝",
-        linkView: "https://madson05.github.io/ImersaoDev/projetos/calculadoraDeMedia/",
-        link: "https://github.com/Madson05/ImersaoDev/tree/main/calculadoraDeMedia",
+        linkView: "https://madson05.github.io/ImersaoDev/projetos/projetos/calculadoraDeMedia/",
+        link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/calculadoraDeMedia",
     },
     projeto2  = {
         nome: "Conversor de Temperatura",
         icone: "🌡",
         linkView: "https://madson05.github.io/ImersaoDev/projetos/conversorDeTemperatura/",
-        link: "https://github.com/Madson05/ImersaoDev/tree/main/conversorDeTemperatura",
+        link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/conversorDeTemperatura",
     },
     projet3  = {
         nome: "Mentalista",
         icone: "❓",
         linkView: "https://madson05.github.io/ImersaoDev/projetos/Mentalista/",
-        link: "https://github.com/Madson05/ImersaoDev/tree/main/Mentalista",
+        link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/Mentalista",
     },
     projeto4  = {
         nome: "FavFlix",
         icone: "🎥",
         linkView: "https://madson05.github.io/ImersaoDev/projetos/FavFlix/",
-        link: "https://github.com/Madson05/ImersaoDev/tree/main/FavFlix",
+        link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/FavFlix",
     },   
     projeto5  = {
         nome: "Tabela de Classificação",
         icone: "🏅",
         linkView: "https://madson05.github.io/ImersaoDev/projetos/tabelaDeClassificacao/",
-        link: "https://github.com/Madson05/ImersaoDev/tree/main/tabelaDeClassificacao",
+        link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/tabelaDeClassificacao",
     },
     projeto6  = {
         nome: "SuperTrunfo",
         icone: "🃏",
         linkView: "https://madson05.github.io/ImersaoDev/projetos/superTrunfo/index.html",
-        link: "https://github.com/Madson05/ImersaoDev/tree/main/superTrunfo",
+        link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/superTrunfo",
     }
 ];
 
