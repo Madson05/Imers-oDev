@@ -10,7 +10,7 @@ let projetos = [
     projeto1  = {
         nome: "Calculadora de Média",
         icone: "📝",
-        linkView: "https://madson05.github.io/ImersaoDev/projetos/projetos/calculadoraDeMedia/",
+        linkView: "https://madson05.github.io/ImersaoDev/projetos/calculadoraDeMedia/",
         link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/calculadoraDeMedia",
     },
     projeto2  = {
