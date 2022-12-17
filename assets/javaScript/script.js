@@ -7,6 +7,28 @@ function alterarTema(){
 
 let areaProjetos = document.getElementById("item-projeto")
 let projetos = [
+
+    {
+        nome: "Secret-Word",
+        icone: "🔏",
+        linkView: "https://github.com/Madson05/secret-word",
+        link: "https://madson05.github.io/secret-word/",
+    },
+
+    {
+        nome: "Quizzmica",
+        icone: "❓",
+        linkView: "https://madson05.github.io/Quizzmica/",
+        link: "https://github.com/Madson05/Quizzmica",
+    },
+
+    {
+        nome: "Interface da Netflix",
+        icone: "🎥",
+        linkView: "https://madson05.github.io/Bootcamp_takeBlip/Interface%20Netflix/index.html#",
+        link: "https://github.com/Madson05/Bootcamp_takeBlip/tree/main/Interface%20Netflix",
+    },
+    
     {
         nome: "Calculadora de Média",
         icone: "📝",
@@ -21,7 +43,7 @@ let projetos = [
     },
     {
         nome: "Mentalista",
-        icone: "❓",
+        icone: "🧠",
         linkView: "https://madson05.github.io/ImersaoDev/projetos/Mentalista/",
         link: "https://github.com/Madson05/ImersaoDev/tree/main/projetos/Mentalista",
     },
