@@ -9,10 +9,11 @@ let areaProjetos = document.getElementById("item-projeto")
 let projetos = [
 
     {
+        
         nome: "Secret-Word",
         icone: "🔏",
-        linkView: "https://github.com/Madson05/secret-word",
-        link: "https://madson05.github.io/secret-word/",
+        linkView: "https://madson05.github.io/secret-word/",
+        link: "https://github.com/Madson05/secret-word",
     },
 
     {
